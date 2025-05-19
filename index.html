@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel | Desenvolvedor</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Daniel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="d-flex align-items-center min-vh-100">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 fade-in">
+          <h1 class="display-4 fw-bold mb-4">Olá, eu sou <span class="highlight">Daniel</span></h1>
+          <p class="lead mb-4">Estudante do curso técnico em desenvolvimento de sistemas, clique aqui e saiba mais...</p>
+          <a href="#about" class="btn btn-primary btn-lg">Conheça-me</a>
+        </div>
+        <div class="col-lg-6 text-center fade-in-delayed">
+          <div class="profile-image-container">
+            <img src="imagens/minha foto.PNG" alt="Daniel" class="img-fluid rounded-circle profile-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <h2 class="section-title">Sobre Mim</h2>
+          <div class="title-underline"></div>
+        </div>
+        <div class="col-lg-6 mb-4 mb-lg-0 fade-in">
+          <h3 class="mb-4">Quem sou eu</h3>
+          <p>Sou um estudante apaixonado por tecnologia e desenvolvimento de sistemas, atualmente cursando o técnico no colégio Cleoracy Aparecida Gil. Meu interesse pela programação começou quando percebi o potencial que a tecnologia tem para transformar vidas e resolver problemas.</p>
+          <p>Estou constantemente buscando aprender novas tecnologias e aprimorar minhas habilidades em desenvolvimento web e mobile. Acredito que a educação contínua é essencial nesta área que evolui tão rapidamente.</p>
+          <div class="mt-4">
+            <a href="#projects" class="btn btn-primary me-3">Meus Projetos</a>
+            <a href="#contact" class="btn btn-outline-light">Entre em Contato</a>
+          </div>
+        </div>
+        <div class="col-lg-6 fade-in-delayed">
+          <div class="skills-container p-4">
+            <h3 class="mb-4">Minhas Habilidades</h3>
+            <div class="skill-item">
+              <div class="d-flex justify-content-between mb-1">
+                <span>HTML & CSS</span>
+                <span>85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="d-flex justify-content-between mb-1">
+                <span>JavaScript</span>
+                <span>70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="d-flex justify-content-between mb-1">
+                <span>Bootstrap</span>
+                <span>80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="d-flex justify-content-between mb-1">
+                <span>Desenvolvimento Mobile</span>
+                <span>60%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <h2 class="section-title">Meus Projetos</h2>
+          <div class="title-underline"></div>
+        </div>
+      </div>
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-4 fade-in">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800" alt="App Finanças" class="img-fluid">
+            </div>
+            <div class="project-content">
+              <h3>App de Finanças Pessoais</h3>
+              <p>Um aplicativo para gerenciamento de finanças pessoais desenvolvido com HTML, CSS e JavaScript. Permite controle de gastos, receitas e metas financeiras.</p>
+              <a href="#" class="btn btn-primary">Ver Projeto</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="col-md-4 fade-in-delayed">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Portfolio" class="img-fluid">
+            </div>
+            <div class="project-content">
+              <h3>E-commerce Responsivo</h3>
+              <p>Uma loja virtual completa desenvolvida com Bootstrap e JavaScript. Inclui recursos como carrinho de compras, filtros de produtos e sistema de pagamento.</p>
+              <a href="#" class="btn btn-primary">Ver Projeto</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="col-md-4 fade-in-delayed-more">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800" alt="App Clima" class="img-fluid">
+            </div>
+            <div class="project-content">
+              <h3>Aplicativo de Clima</h3>
+              <p>Um aplicativo web que consome uma API de previsão do tempo e exibe informações detalhadas sobre o clima em diversas cidades ao redor do mundo.</p>
+              <a href="#" class="btn btn-primary">Ver Projeto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <h2 class="section-title">Entre em Contato</h2>
+          <div class="title-underline"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mb-4 mb-lg-0 fade-in">
+          <div class="contact-info">
+            <h3 class="mb-4">Informações de Contato</h3>
+            <p>Estou sempre aberto a novas oportunidades, colaborações e conversas sobre desenvolvimento e tecnologia. Entre em contato comigo através do formulário ou das minhas redes sociais.</p>
+            <div class="contact-item">
+              <i class="bi bi-envelope-fill"></i>
+              <span>danieltiago@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-geo-alt-fill"></i>
+              <span>Paraná, Brasil</span>
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-phone-fill"></i>
+              <span>(44) 99715-6331</span>
+            </div>
+            <div class="contact-social mt-4">
+              <a href="#" class="social-icon"><i class="bi bi-github"></i></a>
+              <a href="" class="social-icon"><i class="bi bi-linkedin"></i></a>
+              <a href="https://instagram.com/daniell_tiago" target="_blank" class="social-icon"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 fade-in-delayed">
+          <form id="contactForm" class="contact-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg w-100">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <h3 class="mb-0">Daniel</h3>
+          <p class="mb-0">Desenvolvedor Web & Mobile</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="footer-social">
+            <a href="#" class="social-icon"><i class="bi bi-github"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12 text-center">
+          <p class="mb-0">&copy; 2025 Daniel. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        
+        if (targetSection) {
+          window.scrollTo({
+            top: targetSection.offsetTop - 70,
+            behavior: 'smooth'
+          });
+          
+          // Close navbar collapse on mobile when a link is clicked
+          const navbarCollapse = document.querySelector('.navbar-collapse');
+          if (navbarCollapse.classList.contains('show')) {
+            navbarCollapse.classList.remove('show');
+          }
+        }
+      });
+    });
+
+    // Change navbar background on scroll
+    window.addEventListener('scroll', function() {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('navbar-scrolled');
+      } else {
+        navbar.classList.remove('navbar-scrolled');
+      }
+    });
+
+    // Contact form submission
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        
+        // Here you would typically send the form data to a backend server
+        // For demonstration purposes, we'll just show an alert
+        alert(`Obrigado, ${name}! Sua mensagem foi enviada com sucesso.`);
+        contactForm.reset();
+      });
+    }
+
+    // Fade-in animation on scroll
+    document.addEventListener('DOMContentLoaded', function() {
+      const fadeElements = document.querySelectorAll('.fade-in, .fade-in-delayed, .fade-in-delayed-more');
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      fadeElements.forEach(element => {
+        observer.observe(element);
+      });
+    });
+  </script>
+</body>
+</html>
